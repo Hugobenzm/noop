@@ -76,3 +76,10 @@ jobs:
           -destination '${{ matrix.destination }}'
           CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO
           build
+          - name: Subir archivo IPA como Artifact
+            uses: actions/upload-artifact@v4
+            with:
+              name: mi-app-ipa
+              path: |
+                *.ipa
+                **/*.ipa
