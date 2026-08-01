@@ -1002,7 +1002,7 @@ fun TodayScreen(
         }
         }
 
-        // WORDMARK, a subtle centred "N O O P" on the sky between the header and the hero (iOS LiquidWordmark
+        // WORDMARK, a subtle centred "B O O P " on the sky between the header and the hero (iOS LiquidWordmark
         // parity). White @ ~50% opacity, letter-spaced, perfectly centred; a tap plays a small random wiggle
         // easter egg. The old Android Today had NO wordmark; this adds it. Staggered in just after the header.
         item {
@@ -2065,7 +2065,7 @@ private fun LiquidBatteryRing(batteryPct: Double?, onClick: () -> Unit) {
 
 // MARK: - NOOP wordmark (iOS LiquidWordmark parity — centred, with a tap easter egg)
 //
-// The subtle "N O O P" wordmark that sits on the sky between the header and the hero. Built as a row of
+// The subtle "B O O P " wordmark that sits on the sky between the header and the hero. Built as a row of
 // letters (not one tracked string, which adds a trailing gap after the last glyph and pushes the word
 // off-centre), so it sits DEAD centre, white @ ~50% opacity. A tap plays one of several random one-shot
 // animations — wiggle / shake / flip / spin / bounce / jelly squash. Mirrors iOS LiquidWordmark.
